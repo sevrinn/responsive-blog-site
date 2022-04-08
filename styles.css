@@ -27,19 +27,23 @@ header {
 	text-align: center;
 }
 
+/* ======================
+    Typogrphy
+========================*/
 .site-title {
 	color: #143774;
-	font-size: 3.375rem;
+	font-size: 2rem;
 	font-family: 'Lora', serif;
 	letter-spacing: 0.2rem;
+	font-weight: 400;
 }
 
 .site-tagline {
 	color: #1792d2;
 	text-transform: uppercase;
-	font-size: 1rem;
+	font-size: 0.75rem;
 	font-weight: 700;
-	letter-spacing: 0.5rem;
+	letter-spacing: 0.1rem;
 }
 
 .nav-list {
@@ -54,7 +58,16 @@ header {
 	font-size: 1rem;
 	font-weight: 700;
 }
-.nav-list-item a {
+
+nav .active {
+	border-bottom: 2px #707070 solid;
+}
+nav a {
 	color: #707070;
 	text-decoration: none;
+}
+
+nav:hover,
+nav:focus {
+	color: #1792d2;
 }
