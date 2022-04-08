@@ -71,11 +71,15 @@ nav a {
 	padding: 0.25em 0;
 }
 
-nav .current-page {
+.current-page {
 	border-bottom: 2px #707070 solid;
 }
 
-nav:hover,
-nav:focus {
+nav a:hover,
+nav a:focus {
 	color: #1792d2;
+}
+
+.current-page:hover {
+	color: #707070;
 }
