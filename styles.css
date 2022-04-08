@@ -9,24 +9,6 @@ body {
 	font-family: 'Ubuntu', sans-serif;
 }
 
-header {
-	background-color: #f8f8f8;
-	padding: 2em 0;
-}
-
-.container {
-	width: 50%;
-	padding: 2.5em;
-}
-
-.nav-container {
-	display: flex;
-	flex-direction: column;
-	margin: 0 auto;
-	align-items: center;
-	text-align: center;
-}
-
 /* ======================
     Typogrphy
 ========================*/
@@ -46,11 +28,6 @@ header {
 	letter-spacing: 0.1rem;
 }
 
-.nav-list {
-	display: flex;
-	padding-top: 20px;
-}
-
 .nav-list-item {
 	list-style-type: none;
 	margin: 0 1.3em;
@@ -59,12 +36,43 @@ header {
 	font-weight: 700;
 }
 
-nav .active {
-	border-bottom: 2px #707070 solid;
+/* ======================
+    Layout
+========================*/
+
+header {
+	background-color: #f8f8f8;
+	padding: 2em 0;
 }
+
+.container {
+	width: 50%;
+	padding: 2.5em;
+}
+
+/* navigation */
+
+.nav-container {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	align-items: center;
+	text-align: center;
+}
+
+.nav-list {
+	display: flex;
+	padding-top: 20px;
+}
+
 nav a {
 	color: #707070;
 	text-decoration: none;
+	padding: 0.25em 0;
+}
+
+nav .current-page {
+	border-bottom: 2px #707070 solid;
 }
 
 nav:hover,
